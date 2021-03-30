@@ -25,7 +25,7 @@ int main()
    int n;
    printf("\nwhich index do you want to put value?\n");
    scanf("%d", &n);
-   printf("what do you want to put into #%d?\n", n);
+   printf("what do you want to put into index #%d?\n", n);
    int value;
    scanf("%d", &value);
    for(int i = sizeof(a)/sizeof(int); i>=n; i--){
